@@ -3,18 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>待定网页</title>
-    <script>
-        window.onload = function() {
-            if(confirm("此网页待定，未有内容\n点击确定关闭此页面")) {
-                history.back();
-            } else {
-                history.back();
+    <title>TGbot旺仔小乔 使用说明｜水喝千束的博客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+        .content-section {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #3498db;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f3f6;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        .image-container {
+            margin: 25px 0;
+            text-align: center;
+        }
+        .linked-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #eaeaea;
+        }
+        .linked-image:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+        .caption {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        .code-comment {
+            color: #95a5a6;
+        }
+        .code-tag {
+            color: #e74c3c;
+        }
+        .code-attr {
+            color: #3498db;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #eaeaea;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
             }
-        };
-    </script>
+            .content-section {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- 空白网页 -->
+    <header>
+        <h1>tg旺仔小乔Bot的使用说明</h1>
+        <div class="subtitle">使用说明</div>
+    </header>
+
+    <div class="content-section">
+        <h2>守则</h2>
+        <p>第一，机器人旺仔小乔（后简称：小乔）的机器人所有权（xiaoqiaoE_bot）归 水喝千束所有，所有解释权由水喝千束为准。</p>
+        <p>第二，请不要将tg骂人提升至新的高度（如下图），如果出现类似这种情况，将会警告，警告多次不听的或者删除机器人的，将会直接ban掉，想说什么就和我的机器人讲去吧（waterchisato_bot）</p>
+        
+        <div class="image-container">
+            <!-- 使用图床API链接插入图片 -->
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/07/689e71ab2ae1a.jpg" 
+                 alt="骂人骂到新高度" class="linked-image">
+            <span class="caption">图1：骂人骂到新高度</span>
+        </div>
+        
+        <p>请遵守我们的规则</p>
+        <ul>
+            <li>遵守 你当地的法律法规</li>
+            <li>不要把 骂人 提升新的高度</li>
+            <li>遵守Telegram的相关规定</li>
+            <li>不要扭曲事实</li>
+        </ul>
+    </div>
+    <div class="content-section">
+    <p>下方图片（图片2）为小乔的tg菜单，我没有添加任何东西</p>
+        <div class="image-container">
+            <!-- 另一张图床图片 -->
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/07/689e71a88c76f.jpg" 
+                 alt="旺仔小乔tg菜单" class="linked-image">
+            <span class="caption">这是旺仔小乔的tg菜单</span>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>注意</h2>
+        <p>如果违反规则，将直接ban掉</p>
+        
+        <div class="image-container">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/14/689ed1ce0856b.jpg" 
+                 alt="ban图" class="linked-image">
+            <span class="caption">图3：被ban图</span>
+        </div>
+        
+        <ol>
+            <p>祝你能使用机器人的时间过得愉快</p>
+            
+        </ol>
+        
+                <div class="image-container">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/14/689ed375b344a.png" 
+                 alt="WaterChisato Pic" class="linked-image">
+            <span class="caption">水喝千束</span>
+        </div>
+        <p>水喝千束</p>
+    </div>
+
+    <footer>
+        <p>tgBOT旺仔小乔使用说明 &copy; 2025水喝千束</p>
+        
+
+    </footer>
 </body>
 </html>
